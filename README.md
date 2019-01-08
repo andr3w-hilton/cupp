@@ -1,4 +1,8 @@
-# cupp.py - Common User Passwords Profiler
+# CUPP - Common User Passwords Profiler
+
+[![Build Status](https://travis-ci.org/Mebus/cupp.svg?branch=master)](https://travis-ci.org/Mebus/cupp)
+[![Coverage Status](https://coveralls.io/repos/github/Mebus/cupp/badge.svg)](https://coveralls.io/github/Mebus/cupp)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a578dde078ef481e97a0e7eac0c8d312)](https://app.codacy.com/app/Mebus/cupp?utm_source=github.com&utm_medium=referral&utm_content=Mebus/cupp&utm_campaign=Badge_Grade_Dashboard)
 
  
 ## About
@@ -15,10 +19,19 @@
   guessed by someone profiling the user, such as a birthday, nickname, address,
   name of a pet or relative, or a common word such as God, love, money or password.
 
-  That is why CUPP has born, and it can be used in situations like legal
+  That is why CUPP was born, and it can be used in situations like legal
   penetration tests or forensic crime investigations.
 
 
+Requirements
+------------
+
+You need Python 3 to run CUPP.
+
+Quick start
+-----------
+
+    $ python3 cupp.py -h
 
 ## Options
 
@@ -68,7 +81,7 @@
 This project was imported into https://github.com/Mebus/cupp by Mebus from:  
 http://www.remote-exploit.org/content/cupp-3.0.tar.gz  
 http://www.remote-exploit.org/articles/misc_research__amp_code/index.html  
-to encourage further developement of the tool.
+to encourage further development of the tool.
 
 ## Original author
 
